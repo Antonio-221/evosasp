@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Novedades - SASP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      margin: 0;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    .logo {
+      max-width: 90px;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+      letter-spacing: 1px;
+    }
+
+    .franja {
+      background-color: #004477;
+      color: white;
+      text-align: center;
+      padding: 12px 20px;
+      font-style: italic;
+      font-size: 15px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .novedad {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      background-color: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+    }
+
+    .novedad img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 6px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+
+    .contenido {
+      flex: 1;
+      text-align: center;
+    }
+
+    .contenido h2 {
+      margin-top: 0;
+      color: #002244;
+    }
+
+    .contenido p {
+      font-size: 15px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .invertida {
+      flex-direction: row-reverse;
+    }
+
+    .volver {
+      text-align: left;
+      margin-top: 30px;
+    }
+
+    .btn {
+      background-color: #0077cc;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: #005fa3;
+    }
+
+    footer {
+      background-color: #002244;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .novedad {
+        flex-direction: column !important;
+        text-align: center;
+      }
+
+      .contenido {
+        margin-top: 20px;
+      }
+
+      .volver {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://i.imgur.com/2gGSasD.png" alt="Logo SASP" class="logo">
+    <h1>NOVEDADES - S.A.S.P.</h1>
+  </header>
+
+  <div class="franja">
+    Últimas actualizaciones, anuncios oficiales y cambios operativos.
+  </div>
+
+  <div class="container">
+
+    <div class="novedad">
+      <img src="https://i.imgur.com/YWD9nZ8.jpeg" alt="Novedad 1">
+      <div class="contenido">
+        <h2>Gala de Ascensos - Promoción 51</h2>
+        <p>El próximo domingo 29 de junio se celebrará en el Observatorio Los Santos la Gala de Ascensos de la 51ª Promoción del departamento. Durante el acto se determinará y comunicará qué agentes son aptos para continuar su progreso en la policía. Será OBLIGATORIO el cacheo a la entrada del recinto. Podrá aparcar su vehículo personal en el parking, que estará vigilado por agentes. Sin duda, se trata de un momento inolvidable para quienes han trabajado día a día desde su ingreso al cuerpo. ¡No puede faltar!</p>
+      </div>
+    </div>
+
+    <div class="novedad invertida">
+      <img src="https://i.imgur.com/15FAU0d.jpeg" alt="Novedad 2">
+      <div class="contenido">
+        <h2>PRÓXIMAMENTE</h2>
+        <p> </p>
+      </div>
+    </div>
+
+    <div class="volver">
+      <a href="index.html" class="btn">🡰 Volver al Inicio</a>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 𝘎𝘢𝘭𝘭𝘦𝘨𝘰 ™ - Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>

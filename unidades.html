@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Unidades - SASP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f1f1f1;
+    }
+
+        header {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    .logo {
+      max-width: 90px;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .unidades {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      text-align: center;
+      overflow-x: auto;
+    }
+
+    .unidad {
+      flex: 0 0 auto;
+      width: 220px;
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .unidad img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .unidad h2 {
+      margin-top: 15px;
+      font-size: 18px;
+      color: #002244;
+    }
+
+    .boton-unidad {
+      margin-top: 10px;
+      background-color: #0077cc;
+      color: white;
+      padding: 8px 14px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .boton-unidad:hover {
+      background-color: #005fa3;
+    }
+
+    .volver {
+      text-align: left;
+      margin-top: 30px;
+    }
+
+    .btn {
+      background-color: #0077cc;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: #005fa3;
+    }
+
+    @media (max-width: 768px) {
+      .unidades {
+        flex-wrap: nowrap;
+      }
+
+      .unidad {
+        flex: 0 0 auto;
+      }
+
+      .volver {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://i.imgur.com/2gGSasD.png" alt="Logo SASP" class="logo">
+    <h1>UNIDADES ESPECIALIZADAS</h1>
+  </header>
+
+  <div class="container">
+
+    <div class="unidades">
+
+      <div class="unidad">
+        <img src="https://i.imgur.com/CngW0qd.png" alt="Unidad K9">
+        <h2>K9</h2>
+        <a href="k9.html" class="boton-unidad">Ver más ➜</a>
+      </div>
+
+      <div class="unidad">
+        <img src="https://i.imgur.com/vO1WwJR.png" alt="Unidad Motorizada">
+        <h2>UM</h2>
+        <a href="um.html" class="boton-unidad">Ver más ➜</a>
+      </div>
+
+      <div class="unidad">
+        <img src="https://i.imgur.com/9SAWRJu.png" alt="Aviation Support Division">
+        <h2>ASD</h2>
+        <a href="asd.html" class="boton-unidad">Ver más ➜</a>
+      </div>
+
+      <div class="unidad">
+        <img src="https://i.imgur.com/bYplcSu.png" alt="Unidad Marshall">
+        <h2>Ud. Marshall</h2>
+        <a href="marshall.html" class="boton-unidad">Ver más ➜</a>
+      </div>
+
+      <div class="unidad">
+        <img src="https://i.imgur.com/cvfXo2J.png" alt="CNT Crisis Negotiation Team">
+        <h2>CNT</h2>
+        <a href="cnt.html" class="boton-unidad">Ver más ➜</a>
+      </div>
+
+    </div>
+
+    <div class="volver">
+      <a href="index.html" class="btn">🡰 Volver a la página de inicio</a>
+    </div>
+
+  </div>
+
+  <footer style="background-color:#002244; color:white; text-align:center; padding:15px; font-size:14px; margin-top: 40px;">
+  &copy; ! 𝘎𝘢𝘭𝘭𝘦𝘨𝘰 ™ - Todos los derechos reservados.
+</footer>
+
+</body>
+</html>

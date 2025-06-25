@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Divisiones - SASP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f1f1f1;
+    }
+
+        header {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    .logo {
+      max-width: 90px;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .divisiones {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      text-align: center;
+    }
+
+    .division {
+      flex: 1;
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .division img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .division h2 {
+      margin-top: 15px;
+      font-size: 20px;
+      color: #002244;
+    }
+
+    .boton-division {
+      margin-top: 15px;
+      background-color: #0077cc;
+      color: white;
+      padding: 10px 16px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .boton-division:hover {
+      background-color: #005fa3;
+    }
+
+    .volver {
+      text-align: left;
+      margin-top: 30px;
+    }
+
+    .btn {
+      background-color: #0077cc;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: #005fa3;
+    }
+
+    @media (max-width: 768px) {
+      .divisiones {
+        flex-direction: row;
+        overflow-x: auto;
+      }
+
+      .division {
+        min-width: 300px;
+        flex: 0 0 auto;
+      }
+
+      .volver {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://i.imgur.com/2gGSasD.png" alt="Logo SASP" class="logo">
+    <h1>DIVISIONES ESPECIALIZADAS</h1>
+  </header>
+
+  <div class="container">
+
+    <div class="divisiones">
+
+      <div class="division">
+        <img src="https://i.imgur.com/5AfL3J8.png" alt="SERT">
+        <h2>SERT</h2>
+        <a href="sert.html" class="boton-division">Ver más ➜</a>
+      </div>
+
+      <div class="division">
+        <img src="https://i.imgur.com/0E5Gpk2.png" alt="CID">
+        <h2>CID</h2>
+        <a href="cid.html" class="boton-division">Ver más ➜</a>
+      </div>
+
+      <div class="division">
+        <img src="https://i.imgur.com/2OxIIax.jpeg" alt="HPD">
+        <h2>HPD</h2>
+        <a href="hpd.html" class="boton-division">Ver más ➜</a>
+      </div>
+
+    </div>
+
+    <div class="volver">
+      <a href="index.html" class="btn">🡰 Volver a la página de inicio</a>
+    </div>
+
+  </div>
+
+  <footer style="background-color:#002244; color:white; text-align:center; padding:15px; font-size:14px; margin-top: 40px;">
+  &copy; ! 𝘎𝘢𝘭𝘭𝘦𝘨𝘰 ™ - Todos los derechos reservados.
+</footer>
+
+</body>
+</html>

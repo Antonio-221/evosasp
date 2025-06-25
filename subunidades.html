@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>SubUnidades - SASP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      margin: 0;
+    }
+
+    header {
+      background-color: #002244;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    .logo {
+      max-width: 90px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: nowrap;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 45%;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      margin-bottom: 15px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+
+    .card h2 {
+      color: #002244;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      background-color: #0077cc;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background-color: #005fa3;
+    }
+
+    .volver {
+      text-align: left;
+      margin: 40px 20px 0;
+    }
+
+    footer {
+      background-color: #002244;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 800px) {
+      .row {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        width: 90%;
+      }
+
+      .volver {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://i.imgur.com/2gGSasD.png" alt="Logo SASP" class="logo">
+    <h1>SUBUNIDADES OPERATIVAS</h1>
+  </header>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="card">
+        <img src="https://i.imgur.com/vxJtZCP.png" alt="Unidad Flota">
+        <h2>Encargados de Flota</h2>
+        <a href="flota.html" class="btn">Ver más ➜</a>
+      </div>
+
+      <div class="card">
+        <img src="https://i.imgur.com/Mdl7cKP.png" alt="Unidad Uniformidad">
+        <h2>Encargados de Uniformidad</h2>
+        <a href="uniformidad.html" class="btn">Ver más ➜</a>
+      </div>
+
+    </div>
+
+    <div class="volver">
+      <a href="index.html" class="btn">🡰 Volver a la página de inicio</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 𝘎𝘢𝘭𝘭𝘦𝘨𝘰 ™ - Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
